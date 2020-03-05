@@ -9,6 +9,8 @@ def task_8_2():
      if not wall_is_above():
          fill_cell()
     move_right()
+    move_left()
+
     pass
 
 
