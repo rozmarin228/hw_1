@@ -7,12 +7,10 @@ from pyrob.api import *
 def task_8_27():
     while not cell_is_filled():
         move_up()
+    move_right()
+    if not cell_is_filled():
+        move_left(2)
 
-
-
-
-
-    pass
 
 
 if __name__ == '__main__':
